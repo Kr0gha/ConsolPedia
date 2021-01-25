@@ -1,0 +1,233 @@
+
+a{
+    text-decoration:none;
+}
+.Container{
+    margin-top: 5%;
+}
+
+
+.BackgroundColor{
+    background-color: #1A1E22;
+    position: absolute;
+    height: inherit;
+    max-width: 840px;
+    max-height: 197px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin-left: 8%;
+    border-radius: 10px;
+}
+
+/* Bannière , Titre et Sous-Titre*/
+    .Banner{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        margin-top: 50px;
+        max-width: 960px;
+        width: 100%;
+        max-height: 249.35px;
+        height: 100%;
+        box-shadow: -1px 7px 6px 1px rgba(0,0,0,0.75);   
+     }
+
+    .TitleTop{
+        margin: 0 auto;
+        margin-top: -3%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 325.5px;
+        width: 100%;
+    
+    }
+
+    .Title{
+        font-size: 70px;
+        margin: 0;
+        text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);  
+
+    }
+
+    .SubTitle{
+        margin: 0;
+        line-height: 0;
+    }
+
+
+/* Boutton situer sur le haut de la page */
+    .MyButton {
+        padding: 0;
+        margin-left: 3%;
+        height: 40px;
+        width: 120px;
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: #47525E;
+        border-radius: 10px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .MyButton:hover {
+        background-color: #616f7e;
+    }
+
+    .MyButton:active{
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
+
+    .MyButton{
+        margin-left: 3%;
+    }
+
+    .ContentButton{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        margin-top: -35px;
+        z-index: 0;
+    }
+    
+
+/* Titre " Genération (x) "*/
+    .TitleArticle{
+        margin:  0 auto;
+        margin-top: 3%;
+        max-width: 660px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: auto;
+        align-content: start;
+    
+
+    }
+
+/* Contenue par block*/
+
+    .ContentBlock{
+        margin: 0 auto;
+        margin-top: 15px;
+        display: flex;
+        max-width: 960px;
+        align-items: center;    
+        justify-content: start;
+        flex-direction: row;
+        border-radius: 15px;
+    }
+
+    .SubContent{
+        margin: 20px auto;
+        margin-left: 1%;
+        display: flex;
+        align-items: flex-end;   
+        justify-content: end;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .ImgContent{
+        z-index: 2;
+        flex-basis: 70%;
+        display: flex;
+        justify-content: start;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+
+
+    /* Mon Image */
+
+    .monImage{
+        display: flex;
+        width: 250px;
+        height: 250px;
+        background-color: #976DD0;
+        border-radius: 100%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        margin-left: -10px;
+    }
+    .DateImg{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    .date{
+        line-height: 0;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        width: 100px;
+        height: auto;
+        background-color: #976DD0;
+        z-index: 2;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;     
+    }
+
+
+
+    .ContentText{
+        height: 100%;
+        margin-left: -30%;
+        padding-left:200px;
+        background-color: #1A1E22;
+        z-index: 0;
+        border-top-right-radius:25px ;
+        border-bottom-right-radius:25px ;
+        padding-bottom:10px ;
+    
+    }
+
+    .ContentText p{
+        max-height: 80px;
+        overflow-y: auto;
+    }
+
+
+/* Next page     */
+
+.NextPage{
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.NextPage img {
+
+    height: 60px;
+    width: auto;
+    
+}
+
+.NextPage img:hover {
+
+    height: 62px;
+    width: auto;
+    background-color: #1A1E22;
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+@media screen and (max-width: 840px ){
+    .TitleTop{
+        margin-top: -5%;
+        
+    }
+    .TitleTop .Title{
+        font-size: 50px;
+    }
+
+    .Banner{
+        margin-top: 0%;
+    }
+
+    .ContentBlock{
+        padding: 2%;
+        margin: 0 auto;
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: start;
+        align-content: center;
+        max-width: 960px;
+        background-color:#1A1E22;
+        text-align: center;
+    }
+
+    .SubContent{
+        padding: 1%;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;   
+        justify-content: end;
+        flex-direction: column;
+    }
+
+    .TitleArticle{
+        margin:  0 auto;
+        margin-top: 5%;
+        width: 50%;
+        display: block;
+        align-items: auto;
+        align-content: start;
+        text-align: center;
+    }
+
+    .ContentText{
+    margin: 0 0 0 0;
+    padding: 0 0 10px 0 ;
+    }
+
+
+
+    .Footer{
+        padding: 2%;
+        background-color:#1A1E22;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        align-content: center;
+    
+
+    }
+
+    .item{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .ImgContent{
+        display: flex;
+        flex-basis: 70%;
+        text-align: center;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+
+        
+
+    }
+
+    .DateImg{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    
+    }
+    .DateImg .date{
+        margin-top: -30px;
+        border-radius: 20px;
+    }
+
+    .ContentText p{
+        max-height: none;
+    }
+
+    .BackgroundColor{
+        visibility: hidden;
+    }
+
+    .Gmap{
+        width: 300px;
+        height: 300px;
+
+    }
+
+
+}

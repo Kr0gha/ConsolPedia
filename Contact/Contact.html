@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="../assets/css/BasicsStyle.css">
+    <link rel="stylesheet" href="../assets/css/ContactStyle.css">
+    <link rel="stylesheet" href="../assets/css/StyleNavBar.css">
+    <link rel="stylesheet" href="../assets/css/StyleFooter.css">
+    <link rel="stylesheet" href="../assets/css/StyleScrollbar.css">
+    <link rel="stylesheet" href="../assets/css/BurgerStyle.css">
+
+    <link rel="icon" href="../assets/media/icon/favicon.png">
+    <script src="../assets/js/confirmmessage.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+        <!-- Barre de Navigation-->
+        <div class="NavBar" role="navigation">
+            <div class="Nav" id="menuToggle">
+    
+                <input type="checkbox" id="checkbox" />
+    
+                <span></span>
+                <span></span>
+                <span></span>
+    
+                <ul>
+                    <li><a class="active" href="../index.html"> <img src="../assets/media/icoHome.png" alt="icoHome"></a></li>
+                    <li><a href="../Questionnaire/Quizz.html">Quizz</a></li>
+                    <li><a href="../APropos/About.html">À propos</a></li>
+                    <li><a href="../Cgu/Cgu.html">Mentions Légales / CGU</a></li>
+                </ul>
+    
+            </div>
+        </div>
+
+                    <!-- barre de navigation mobile-->
+
+                    <div class="containerBM">
+                        <nav>
+                            <input type="checkbox" id="burger-shower" class="burger-shower">
+                            <label for="burger-shower" class="hamburger">
+                                <hr />
+                                <hr />
+                                <hr />
+                            </label>
+                            <ul class="burger-menu">
+                                <li><a> Accueil</a></li>
+                                <li><a href="../Questionnaire/Quizz.html">Quizz</a></li>
+                                <li><a href="../APropos/About.html">À propos</a></li>
+                                <li><a href="../Cgu/Cgu.html">Mentions Légales / CGU</a></li>
+                            </ul>
+                        </nav>
+                      </div> 
+
+    <div class="container">
+
+        <h1> Formulaire de Contact. </h1>
+
+
+        <form method="post" name="formulaire" class="FormComplete">
+
+            <input type="Text" name="Name" id="Name" class="InputForm" placeholder="Nom" required>
+
+            <input type="Text" name="LastName" id="LastName" placeholder="Prenom" class="InputForm" required>
+
+            <input type="Text" name="Email" id="Email" placeholder="Email" class="InputForm" required>
+
+            <H2>Objet du message:</H2>
+            <select id="ObjSelect" name="ObjSelect" placeholder="Objet du message.">
+                <option value="aucun"> sans objet</option>
+                <option value="1">Demande d'ajout de contenu</option>
+                <option value="2">Demande de devis</option>
+                <option value="3">Erreur Ou Problème rencontrer</option>
+            </select>
+
+
+            <textarea id="textinfo" name="textinfo" rows="5" cols="auto" required>
+
+        </textarea>
+
+            <input id="BoutonBouton" type="submit" onclick="boutonclique()">
+        </form>
+
+
+
+    </div>
+
+    <div class="Footer">
+
+        <div class="FooterTitle">
+            <img src="../assets/media/icon/pin.svg" alt="" id="PinSVG">
+            <H3> Ou Somme Nous ?</H3>
+        </div>
+
+        <div class="ContentFooter">
+
+            <div class="mapwrapper">
+
+
+                <div class="Responsivmap">
+
+                    <iframe class="Gmap"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41970.41080327126!2d2.231220350664962!3d48.89346555571257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66505aaadd1dd%3A0xf187c86ce82c7889!2sLa%20D%C3%A9fense!5e0!3m2!1sfr!2sfr!4v1604411645621!5m2!1sfr!2sfr"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+
+                </div>
+
+            </div>
+
+
+            <div id="AdresseFooter">
+
+                <h3> La Defense</h3>
+                <p>ConsolPedia</p>
+                <p>23 Rue du Cheval d'Argent</p>
+                <p>92060 La Defense</p>
+
+            </div>
+
+            <div id="InformationFooter">
+
+                <p>Email: </p><A href="mailto:Contact@Contact.com">Contact@Contact.com</A>
+                <p>Tel:</p> <a href="tel:+336.01.01.01.01"> 06.01.01.01.01 </a>
+
+            </div>
+
+            <div id="LienFooter">
+
+                <a href="../Contact/Contact.html">Contact</a>
+                <a href="../Cgu/Cgu.html">Mentions Légales / CGU</a>
+
+            </div>
+
+
+
+
+
+        </div>
+        <div class="SocialFooter">
+            <a href="https://twitter.com/" target="_blank"><img src="../assets/media/icon/twitterico.png"
+                    alt="twitter"></a>
+            <a href="https://facebook.com/" target="_blank"><img src="../assets/media/icon/facebookico.png"
+                    alt="facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../assets/media/icon/instaico.png"
+                    alt="instagram"></a>
+            <a href="https://linkedin.com/"> <img src="../assets/media/icon/linkedinico.png" alt="Linkedin"></a>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

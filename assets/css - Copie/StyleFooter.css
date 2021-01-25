@@ -1,0 +1,167 @@
+/* footer */
+
+.Footer{
+    margin: 0 auto;
+    padding: 1%;
+    margin-top: 1%;
+    background-color:#1A1E22;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 960px;
+    margin-top: 2%;
+}
+
+#PinSVG{
+    height:50px;
+    width: 50px;
+    fill: white;
+}
+.FooterTitle{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid #47525E ;
+    margin-bottom: 1%;
+
+}
+
+.Footer H3{
+    text-align: center;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 28px;
+
+}
+
+.ContentFooter{
+    display: flex;
+    flex-direction: row;
+}
+
+.mapwrapper{
+    flex-basis: 25%;
+}
+
+#AdresseFooter{
+    text-align: center;
+    line-height: 2px;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-right: 2px solid #47525E;
+    flex-basis: 25%;
+    text-overflow: wrap;
+}
+
+#InformationFooter{
+    padding-right: 1%;
+    padding-left: 1%;
+    border-right: 2px solid #47525E;
+    flex-basis: 25%;
+
+}
+
+#LienFooter{
+    margin-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+}
+
+#LienFooter a{
+    color: white;
+    background-color: none;
+    margin-bottom: 2%;
+}
+
+#LienFooter a:hover{
+    color: black;
+    background-color: none;
+}
+
+.TextFooter{
+    display: flex;
+    flex-direction: row;
+    max-width: 430px;
+    width: 100%;
+    padding-bottom: 100Px;
+}
+
+.TextFooter a {
+    color: white ;
+    margin-right: 5%;
+}
+
+.TextFooter a:hover{
+    background-color: #111;
+}
+
+.Gmap{
+    margin-top: 2%;
+    height: 200px;
+    width: 300px;
+}
+
+.SocialFooter{
+    margin-top: 1%;
+    border-top: 1px solid #47525E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.SocialFooter img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.SocialFooter a{
+    margin: 3%;
+}
+
+.SocialFooter img:hover{
+ transform: scale(2);
+}
+
+@media screen and (max-width: 840px ){
+    .Footer{
+        padding: 2%;
+        background-color:#1A1E22;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .Gmap{
+        width: 300px;
+        height: 300px;
+    }
+
+    .ContentFooter{
+        flex-direction: column;
+        border: none;
+        text-align: center;
+    }
+
+    #AdresseFooter,#InformationFooter{
+        border: none;
+        border-bottom: 1px solid #47525E;
+    }
+
+
+}
+
+    
+

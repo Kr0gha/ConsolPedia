@@ -1,0 +1,117 @@
+
+/* Taille Couleur de Base pour Font et Body*/
+body{
+    background-color: #1A1E22;
+    margin: 0;
+
+}
+
+.SizeImg img{
+    position: relative;
+}
+
+.Container{
+    background-color: #2A2E32;
+    margin: 20px auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 650px;
+    max-width: 1000px;    
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    
+}
+
+.InsertImage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: end;
+    flex-direction: column;
+    line-height: 0;
+    margin: 20px;
+
+}
+
+.InsertImage:hover{
+    background-color: #4A4D51;
+    z-index: 1;
+    transform: scale(1.1);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+    transition: .3s;
+}
+
+.SizeImg{
+    height: 240px;
+    width: 184px;
+    
+}
+
+.InsertImage img{
+    max-height: 240px;
+    max-width: 184px;
+}
+
+.NextPage img {
+
+    height: 60px;
+    width: auto;
+    transform: rotate(180deg);
+    position: fixed;
+    margin-left: -3%;
+    
+}
+
+/* information jeu hover */
+
+.InsertImage{
+    position: relative;
+}
+
+.overlay{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(78deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1)15%, rgba(68,0,120,1) 100%);;
+    top: 0;
+    opacity: 0;
+    justify-content: space-around;
+    
+}
+
+.textOverlay{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 5px;
+    border: 1px solid white;
+    width: 80%;
+    height: 80%;
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+}
+
+.overlay:hover{
+opacity: 1;
+transition: 0.8 ease;
+
+}
+
+
+
+
+

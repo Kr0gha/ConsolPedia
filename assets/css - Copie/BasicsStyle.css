@@ -1,0 +1,54 @@
+#checkbox{
+    display: none;
+}
+
+a{
+    text-decoration:none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    hyphens: auto;
+}
+
+h1 , h2{
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+
+h2{
+    font-size: 50px;
+}
+
+
+/* Css Basique et Général */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: #2A2E32;
+    margin: 0 auto; 
+}
+
+@media screen and (max-width: 840px ){
+
+h1,H2{
+    font-size: 40px;
+}
+
+p{
+    font-size:15px;
+}
+
+}

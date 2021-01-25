@@ -1,0 +1,28 @@
+.Content{
+    
+    height: auto;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #1A1E22;
+    padding-bottom:20px ;
+
+}
+
+h1{
+    font-size: 50px;
+    
+    
+}
+
+h2{
+    font-size: 40px;
+    border-bottom: 1px solid white;
+}
+.Content p , h1, h2{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
